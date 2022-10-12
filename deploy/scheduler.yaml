@@ -40,8 +40,8 @@ kind: Pod
 metadata:
   name: kubeshare-scheduler
   namespace: kube-system
-  annotations:
-    scheduler.alpha.kubernetes.io/critical-pod: ""
+  # annotations:
+  #   scheduler.alpha.kubernetes.io/critical-pod: ""
   labels:
     app: kubeshare-scheduler
 spec:
